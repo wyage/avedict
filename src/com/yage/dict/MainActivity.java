@@ -349,6 +349,7 @@ public class MainActivity extends Activity {
 
 			@Override
 			public void onNothingSelected(AdapterView<?> parent) {
+				
 			}
 		});
 
