@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AVEDict</string>
+    <string name="input_default_text"></string>
+    <string name="action_history">查看历史</string>
+    <string name="action_wonder">随便看看</string>
+    <string name="action_favorite">查看收藏</string>
+    <string name="action_doaction">操作</string>
+    <string name="action_settings">设置</string>
+    <string name="action_exit">退出</string>
+    <string name="action_goback">返回</string>
+    <string name="action_select_action">请选择执行动作</string>
+    <string name="action_clear_history">清除历史</string>
+    <string name="action_clear_favorites">清除收藏</string>
+    <string name="action_clear_dict_setting">清除字典设置信息</string>
+    <string name="action_read_help">查看帮助</string>
+    <string name="action_about_info">关于此程序</string>
+    <string name="action_long_label">选择操作</string>
+    <string name="action_long_add_favorite">加入收藏</string>
+    <string name="action_copy_word">复制单词</string>
+    <string name="action_copy_word_explanation">复制释义</string>
+    <string name="action_show_word_explanation">显示释义</string>
+    <string name="action_favorite_long_press_delete">删除</string>
+    <string name="setting_show_length">是否显示释义长度[暂未实现]</string>
+    <string name="setting_show_length_summary">是否在每个单词后面显示此单词对应的释义的内容长度</string>
+    <string name="setting_if_record_history">是否记录查询历史</string>
+    <string name="setting_if_record_history_summary_on">记录查询单词的历史，这将会占用少量的存储空间</string>
+    <string name="setting_if_record_history_summary_off">不记录查询单词的历史，为你的SD卡节省存储空间</string>
+    <string name="setting_if_open_new_activity">是否在新窗口中打开释义</string>
+    <string name="setting_if_open_new_activity_summary">选中此项代表在新窗口中打开单词释义，反之则在新对话框中打开单词释义</string>
+    <string name="setting_activity_title">功能设置</string>
+    <string name="title_activity_favorite">我的收藏</string>
+    <string name="title_activity_history">查询历史</string>
+    <string name="title_activity_about">关于此程序</string>
+    <string name="title_activity_word">WordActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_test">TestActivity</string>
+    <string name="ttt">ttttllkktt</string>
+
+</resources>

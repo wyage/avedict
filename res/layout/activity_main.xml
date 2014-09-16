@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/min_margin"
+    android:paddingLeft="@dimen/min_margin"
+    android:paddingRight="@dimen/min_margin"
+    android:paddingTop="@dimen/min_margin"
+    tools:context=".MainActivity" >
+	<!-- 主界面，2014-7-27 18:55:32 -->
+    <AutoCompleteTextView
+        android:id="@+id/autoCompleteTextViewInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:ems="10"
+        android:text="@string/input_default_text" >
+        <requestFocus />
+    </AutoCompleteTextView>
+
+    <ListView
+        android:id="@+id/listAllWords"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/autoCompleteTextViewInput"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/min_margin"
+        android:clickable="true"
+        android:longClickable="true" >
+
+    </ListView>
+
+    <ProgressBar
+        android:id="@+id/progressBarShowLoading"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>

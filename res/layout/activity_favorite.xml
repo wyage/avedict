@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!-- 我的收藏/历史，2014-7-27 19:00:45 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/min_margin"
+    android:paddingLeft="@dimen/min_margin"
+    android:paddingRight="@dimen/min_margin"
+    android:paddingTop="@dimen/min_margin"
+    tools:context=".FavoriteActivity" >
+
+    <ListView
+        android:id="@+id/favorite_list_words"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:longClickable="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" >
+    </ListView>
+
+</RelativeLayout>

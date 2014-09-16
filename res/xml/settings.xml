@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:summary="@string/setting_show_length_summary" android:title="@string/setting_show_length" android:selectable="true" android:defaultValue="true" android:key="if_show_length"/>
+    <CheckBoxPreference android:defaultValue="true" android:summary="@string/setting_if_record_history_summary_on" android:key="if_record_history" android:title="@string/setting_if_record_history" android:summaryOff="@string/setting_if_record_history_summary_off" android:summaryOn="@string/setting_if_record_history_summary_on"/>
+    <!-- <CheckBoxPreference android:key="if_show_in_new_activity" android:summary="@string/setting_if_open_new_activity_summary" android:title="@string/setting_if_open_new_activity" android:defaultValue="true"/> -->
+</PreferenceScreen>

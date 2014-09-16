@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!-- 程序关于 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/min_margin"
+    android:paddingLeft="@dimen/min_margin"
+    android:paddingRight="@dimen/min_margin"
+    android:paddingTop="@dimen/min_margin"
+    tools:context=".AboutActivity" >
+
+    <WebView
+        android:id="@+id/webViewAbout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerVertical="true" />
+
+</RelativeLayout>

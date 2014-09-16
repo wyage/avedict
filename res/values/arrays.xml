@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <!-- 点击【操作】按钮之后显示的选择【动作菜单】 -->
+    <string-array name="main_menu_actions">
+        <item>@string/action_clear_favorites</item>
+        <item>@string/action_clear_history</item>
+        <item>@string/action_clear_dict_setting</item>
+        <item>@string/action_read_help</item>
+        <item>@string/action_about_info</item>
+    </string-array>
+    
+    <!-- 在单词上长按显示的【操作菜单】 -->
+    <string-array name="word_long_press_actions">
+        <item>@string/action_long_add_favorite</item>
+        <item>@string/action_copy_word</item>
+        <item>@string/action_copy_word_explanation</item>
+        <item>@string/action_show_word_explanation</item>
+    </string-array>
+    
+    <!-- 在单词上长按显示的【操作菜单】 -->
+    <string-array name="favorite_long_press_actions">
+        <item>@string/action_favorite_long_press_delete</item>
+    </string-array>
+    
+</resources>
