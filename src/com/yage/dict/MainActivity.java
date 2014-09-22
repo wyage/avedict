@@ -13,8 +13,8 @@ import java.util.Set;
 
 import com.yage.dict.db.DatabaseHelper;
 import com.yage.dict.entity.FavoriteWord;
-import com.yage.first.dict.ReadDictWord;
-import com.yage.first.dict.WordPosition;
+import org.yage.dict.star.StarDictParser;
+import org.yage.dict.star.WordPosition;
 
 import android.net.Uri;
 import android.os.Bundle;
@@ -70,7 +70,7 @@ public class MainActivity extends Activity {
 	private ArrayAdapter<String> adapter;
 	
 	//词典类，用来加载词典，搜索单词，显示单词等。也供收藏界面调用
-	public static ReadDictWord readDict;
+	public static StarDictParser readDict;
 	
 	//消息常数，指明要显示【单词列表】，并隐藏【等待进度条】
 	private static final int SHOW_WORD_LIST=1;
@@ -365,7 +365,7 @@ public class MainActivity extends Activity {
 			}
 		});
 		
-		readDict=new ReadDictWord();
+		readDict=new StarDictParser();
 		
 		//开辟新进程来加载字典的索引数据
 		new Thread(new Runnable(){

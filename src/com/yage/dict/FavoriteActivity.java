@@ -8,7 +8,7 @@ import java.util.Map;
 import com.yage.dict.R.id;
 import com.yage.dict.db.DatabaseHelper;
 import com.yage.dict.entity.FavoriteWord;
-import com.yage.first.dict.WordPosition;
+import org.yage.dict.star.WordPosition;
 
 import android.os.Bundle;
 import android.app.Activity;
