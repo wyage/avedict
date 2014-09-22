@@ -1,6 +1,6 @@
 AVEDict
 =======
-AVEDict aims to be a simple but practically useful dictinoary application running on the Android platform.
+AVEDict aims to be a simple but practically useful dictionary application running on the Android platform.
 
 AVEDict was initially inspired by the StarDict(<a href="http://en.wikipedia.org/wiki/StarDict">http://en.wikipedia.org/wiki/StarDict</a>), an excellent cross-platform desktop dictionary.
 
